@@ -1,0 +1,153 @@
+/* Homepage.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  padding: 0 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Banner image */
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+  opacity: 0.5;
+}
+
+.carousel .control-arrow:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel .thumbs-wrapper {
+  display: none;
+}
+
+/* Filters */
+.filters {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.filters h4 {
+  margin-bottom: 15px;
+}
+
+.filters .btn {
+  margin-top: 15px;
+}
+
+/* Products */
+.card {
+  width: 18rem;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.card-price {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.card-text {
+  margin: 10px 0;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+.loadmore {
+  display: block;
+  margin: 0 auto;
+}
+
+.loadmore .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Utility classes */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.ms-1 {
+  margin-left: 5px;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.m-2,
+.p-3 {
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
